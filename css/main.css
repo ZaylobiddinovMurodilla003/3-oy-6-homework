@@ -28,7 +28,7 @@ body {
   background-color: #014e56;
   display: flex;
   flex-flow: column;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 ol,
@@ -152,3 +152,74 @@ ul {
   top: -80px;
 }
 /* /hero */
+
+/* teams*/
+
+.teams {
+  background-color: #012f34;
+  padding: 198px 0 140px 0;
+
+  background-image: url(../images/teams-bgi.svg);
+  background-repeat: no-repeat;
+  background-size: 100px 244px;
+  background-position: calc(50% + 700px) bottom;
+}
+
+.teams__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.teams__title {
+  width: 445px;
+  color: var(--white);
+  font-size: 48px;
+  position: relative;
+}
+
+.teams__title::before {
+  display: inline-block;
+  content: "";
+  width: 50px;
+  height: 4px;
+  border: none;
+  background-color: #f67e7e;
+  position: absolute;
+  top: -54px;
+}
+
+.teams__right__list {
+  display: flex;
+  flex-flow: column;
+  gap: 32px;
+}
+
+.teams__right__item {
+  display: flex;
+  justify-content: space-between;
+  gap: 23px;
+}
+
+.teams__right__item__info {
+  display: flex;
+  flex-flow: column;
+}
+
+.teams__right__item__title {
+  color: var(--secondary-color);
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+
+.teams__right__item__text {
+  color: var(--white);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  width: 445px;
+}
+
+.teams__right__item img {
+  order: -1;
+}
