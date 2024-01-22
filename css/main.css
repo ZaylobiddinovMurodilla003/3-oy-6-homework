@@ -230,11 +230,9 @@ ul {
 
 .stories {
   padding: 140px 0 151px;
-
   background-image: url(../images/stories-bgi-1.svg),
     url(../images/stories-bgi-2.svg);
   background-repeat: no-repeat;
-
   background-size: 147px 100px, 200px 100px;
   background-position: calc(50% - 720px) top, calc(50% + 650px) bottom;
 }
@@ -297,4 +295,39 @@ ul {
   line-height: 25px;
   order: -1;
   margin: 24px;
+  width: 350px;
+}
+
+/* /stories */
+
+/* started */
+
+.started {
+  padding: 76px 0;
+  background-color: var(--secondary-color);
+  background-image: url(../images/started-bgi.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 685px) bottom;
+  background-size: 200px 122px;
+}
+
+.started__container {
+  display: flex;
+  align-items: center;
+}
+
+.started__title {
+  color: #012f34;
+  font-size: 48px;
+  margin-left: 63px;
+}
+
+.started__link {
+  margin-left: 260px;
+  color: #012f34;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 32px;
+  border-radius: 24px;
+  border: 2px solid #012f34;
 }
